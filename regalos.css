@@ -19,13 +19,13 @@ body {
 }
 
 .container {
-    max-width: 45%; /* Cambiado a un porcentaje para adaptarse mejor */
-    margin: 0 auto;
+    max-width: 80%;
+    margin: 10vh auto 10vh; /* Ajuste en los márgenes superior e inferior */
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 5vw; /* Utilizando unidades relativas para adaptarse mejor al tamaño de la pantalla */
+    height: auto;
 }
 
 .title {
@@ -52,6 +52,18 @@ body {
 
 .gift-list a:hover {
     text-decoration: underline;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .gift-list li {
+        font-size: 16px;
+        margin: 10px 0;
+    }
 }
 
 @keyframes fadeIn {
