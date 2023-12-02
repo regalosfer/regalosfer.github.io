@@ -18,15 +18,14 @@ body {
     filter: blur(3px);
 }
 
-.container, .nota {
-    max-width: 600px;
+.container {
+    max-width: 45%; /* Cambiado a un porcentaje para adaptarse mejor */
     margin: 0 auto;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
-    width: 80%;
     border-radius: 10px;
-    margin-top: 100px;
+    margin-top: 5vw; /* Utilizando unidades relativas para adaptarse mejor al tamaño de la pantalla */
 }
 
 .title {
@@ -35,20 +34,20 @@ body {
     animation: fadeIn 2s ease-in-out;
 }
 
-.gift-list, .nota {
+.gift-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.gift-list li, .nota li {
+.gift-list li {
     font-size: 1.2em;
     margin: 10px 0;
 }
 
 .gift-list a {
     text-decoration: none;
-    color: #333; /* Cambia el color según tus preferencias */
+    color: #333;
 }
 
 .gift-list a:hover {
