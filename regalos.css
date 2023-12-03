@@ -67,7 +67,7 @@ body {
     }
     .container {
         max-width: 80%;
-        margin: 5vh auto 3vh; /* Ajuste en los márgenes superior e inferior */
+        margin: 5vh auto 5vh; /* Ajuste en los márgenes superior e inferior */
         text-align: center;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 20px;
