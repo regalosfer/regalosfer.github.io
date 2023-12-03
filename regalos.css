@@ -61,9 +61,21 @@ body {
     }
 
     .gift-list li {
-        font-size: 16px;
+        font-size: 14px;
         margin: 10px 0;
+    
     }
+    .container {
+        max-width: 80%;
+        margin: 5vh auto 3vh; /* Ajuste en los márgenes superior e inferior */
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        height: auto;
+    
+    }
+    
 }
 
 @keyframes fadeIn {
